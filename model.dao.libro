@@ -1,0 +1,10 @@
+package takeBook.model.dao;
+
+public interface LibroDAO {
+	
+	public void save();
+	public void update();
+	public void delete();
+	public void read();
+
+}
