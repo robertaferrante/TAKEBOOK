@@ -1,10 +1,13 @@
-package takeBook.model.dao;
+import java.util.List;
+
+import takeBook.model.Libro;
 
 public interface LibroDAO {
 	
-	public void save();
-	public void update();
-	public void delete();
-	public void read();
+	//public void save(Libro l);
+	//public int update(Libro l);
+	//public void delete(int id_libro);
+	public Libro read(String titolo);
+	public List<Libro> readAll();
 
 }
