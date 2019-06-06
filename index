@@ -85,13 +85,13 @@
 	
 	<h2 align="center">TakeBook</h2>
 	
-	<form method ="post" action="" >
+	<form method ="post" action="./ServletIndex" >
 	  <div class="imgcontainer">
 	    <img src="images/avatar.png" alt="Avatar" class="avatar">
 	  </div>
 	
 	  <div class="container">
-	    <label for="uname"><b>Inserisci la tua email:</b></label>
+	    <label for="em"><b>Inserisci la tua email:</b></label>
 	     <input type="text" placeHolder="Email" name="email" id ="E">
 	
 	    <label for="psw"><b>Inserisci la tua password:</b></label>
